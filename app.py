@@ -1,6 +1,6 @@
-user_prompt = "enter a todo:"
+user_prompt = "Enter a todo:"
 
-while 2 > 1:
+while True:
     todo = input(user_prompt)
-print(todo)
-print("Next...")
+    print(todo)
+    print("Next...")
