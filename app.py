@@ -1,8 +1,6 @@
-user_prompt = "enter a name:"
+user_prompt = "enter a todo:"
 
-todo1 = input(user_prompt)
-
-todos = [todo1, todo2, todo3, "hello"]
-print(todos)
-
-print(type(todos))
+while 2 > 1:
+    todo = input(user_prompt)
+print(todo)
+print("Next...")
